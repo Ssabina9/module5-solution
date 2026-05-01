@@ -1,0 +1,55 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+}
+
+#main-view {
+  margin-bottom: 50px;
+}
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+
+.menu-item-photo {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #557c3f;
+  padding: 5px 10px;
+  font-size: 1.2em;
+}
+
+.menu-item-price {
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.menu-item-description {
+  padding-left: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 50px;
+  font-size: 1.2em;
+}
+
+#loading-view {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
