@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="restaurant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurant App - Module 5</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div ng-controller="RestaurantController as $ctrl">
+    <div id="loading-view" class="text-center" style="display: none;">
+      <img src="images/ajax-loader.gif" alt="Loading...">
+    </div>
+    <div id="main-view"></div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
